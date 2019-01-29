@@ -129,6 +129,78 @@ A \texthighlighted{proof} is a chain of logical deductions that establishes the 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Proof by contradiction}
 
+\begin{frame}
+\begin{enumerate}
+\item Assume the thesis is false.
+\item Show that this assumption leads to a contradiction.
+\item Hence, the thesis is true.
+\end{enumerate}
+\begin{alertblock}{Example}<2->
+\textbf{Theorem:} $\sqrt{2}$ is irrational.
+\end{alertblock}
+
+\begin{block}{Previous concepts}<3->
+\begin{itemize}
+\item \textbf{Definition:} A real number $r$ is \emph{rational} if there exists integers $p$ and $q$, with no common factors and $q\neq 0$ such that $r = p/q$. A real number that is not rational is called \emph{irrational}.
+\item \textbf{Theorem:} Let $a$ be an integer number such that $a^2$ is even. Then $a$ is also even.
+\end{itemize}
+\end{block}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\begin{alertblock}{Example}
+\textbf{Theorem:} $\sqrt{2}$ is irrational.
+\begin{enumerate}
+\item<2-> Assume $\sqrt{2}$ is rational.
+\item<3-> $\sqrt{2} = \frac{p}{q}$, $p$ and $q$ without common factors.
+\item<4-> $2 = \frac{p^2}{q^2}\Rightarrow p^2 = 2q^2.$
+\item<5-> $p^2$ is even and, by the previous theorem, $p$ is also even.
+\item<6-> $p = 2s$, for some integer $s$.
+\item <7->$(2s)^2 = 2q^2 \Rightarrow 4s^2 = 2q^2 \Rightarrow 2s^2 = q^2$.
+\item<8-> $q^2$ is even, and so it is $q$.
+\end{enumerate}
+\visible<9->{{\Large \texthighlighted{Contradiction! }}\\
+\visible<10->{On the one hand, we assumed $p$ and $q$ have no common factors.\\
+On the other hand, if $p$ and $q$ are even, $2$ is a common factor.\\
+Therefore, \textbf{$\boldsymbol{\sqrt{2}}$ is irrational}.}}
+\end{alertblock}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{It's your turn!}
+\begin{block}{}
+\textbf{Theorem:} Let $a$ be an integer number such that $a^2$ is even. Then $a$ is also even.
+\end{block}
+\visible<2->{
+\begin{enumerate}
+\item Assume $a$ is odd.
+\item $a = 2k + 1$ for some integer $k$.
+\item $a^2 = (2k + 1)^2 = 4k^2 + 4k + 1 = 2(2k^2 + 2k) + 1$.
+\item $a^2$ is odd.
+\end{enumerate}
+\hspace*{0.3cm}{\large \texthighlighted{Contradiction! }} \\
+\hspace*{0.3cm}Since, by hypothesis, $a^2$ is even.\\
+\hspace*{0.3cm}Therefore, $a$ is even.
+}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Another example?}
+\begin{block}{}
+\textbf{Theorem:}  For every natural number $a>2$ and $a$ prime, then it holds that $a$ is odd.
+\end{block}
+\visible<2->{
+\begin{enumerate}
+\item Assume $a$ is even.
+\item $a = 2k$, for some $k$. Since $a>2$, then $k\neq 1$.
+\item $a$ is composite.
+\end{enumerate}
+\hspace*{0.3cm}{\large \texthighlighted{Contradiction! }} \\
+\hspace*{0.3cm}Since, by hypothesis, $a$ is prime.\\
+\hspace*{0.3cm}Therefore, $a$ is odd.
+}
+\end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Proof by induction}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
