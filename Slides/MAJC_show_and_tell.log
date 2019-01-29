@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.23)  29 JAN 2019 19:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.23)  29 JAN 2019 19:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1486,20 +1486,32 @@ Overfull \hbox (18.21086pt too wide) has occurred while \output is active
 [42
 
 ]
-Overfull \hbox (9.26285pt too wide) in paragraph at lines 288--288
- []|  [] 
+Overfull \hbox (2.49995pt too wide) has occurred while \output is active
+[][] 
  []
 
-File: imus_basico_oct.png Graphic file (type png)
-<use imus_basico_oct.png>
-Package pdftex.def Info: imus_basico_oct.png used on input line 288.
-(pdftex.def)             Requested size: 95.61462pt x 42.74834pt.
 
 Overfull \hbox (18.21086pt too wide) has occurred while \output is active
 [][] 
  []
 
 [43
+
+]
+Overfull \hbox (9.26285pt too wide) in paragraph at lines 293--293
+ []|  [] 
+ []
+
+File: imus_basico_oct.png Graphic file (type png)
+<use imus_basico_oct.png>
+Package pdftex.def Info: imus_basico_oct.png used on input line 293.
+(pdftex.def)             Requested size: 95.61462pt x 42.74834pt.
+
+Overfull \hbox (18.21086pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[44
 
 ]
 \tf@nav=\write6
@@ -1511,11 +1523,11 @@ Overfull \hbox (18.21086pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `MAJC_show_and_tell.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 291.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 291.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 296.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 296.
  (./MAJC_show_and_tell.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 291.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 291.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 296.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 296.
 Package rerunfilecheck Info: File `MAJC_show_and_tell.out' has not changed.
 (rerunfilecheck)             Checksum: 99BD2E4197C5E53D1BDEA4F2D16DF9AE;207.
 
@@ -1525,8 +1537,8 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 22173 strings out of 492995
- 434976 string characters out of 6132704
+ 22175 strings out of 492995
+ 434995 string characters out of 6132704
  514484 words of memory out of 5000000
  25129 multiletter control sequences out of 15000+600000
  15992 words of font info for 60 fonts, out of 8000000 for 9000
@@ -1552,10 +1564,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2017/texm
 f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on MAJC_show_and_tell.pdf (43 pages, 336206 bytes).
+Output written on MAJC_show_and_tell.pdf (44 pages, 337710 bytes).
 PDF statistics:
- 487 PDF objects out of 1000 (max. 8388607)
- 399 compressed objects within 4 object streams
- 91 named destinations out of 1000 (max. 500000)
+ 495 PDF objects out of 1000 (max. 8388607)
+ 405 compressed objects within 5 object streams
+ 93 named destinations out of 1000 (max. 500000)
  140 words of extra memory for PDF output out of 10000 (max. 10000000)
 
