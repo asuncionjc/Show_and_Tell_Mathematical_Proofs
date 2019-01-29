@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.27)  29 JAN 2019 13:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.27)  29 JAN 2019 13:48
 entering extended mode
 **./MAJC_show_and_tell.tex
 (MAJC_show_and_tell.tex
@@ -965,7 +965,7 @@ Overfull \hbox (9.26285pt too wide) in paragraph at lines 51--51
  []|  [] 
  []
 
-<imus_basico_oct.png, id=20, 273.1806pt x 122.1363pt>
+<imus_basico_oct.png, id=36, 273.1806pt x 122.1363pt>
 File: imus_basico_oct.png Graphic file (type png)
 
 <use imus_basico_oct.png>
@@ -991,21 +991,61 @@ Overfull \hbox (18.21086pt too wide) has occurred while \output is active
 
 [2
 
+] (MAJC_show_and_tell.toc)
+Overfull \hbox (18.21086pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[3
+
 ]
-Overfull \hbox (9.26285pt too wide) in paragraph at lines 97--97
+Overfull \hbox (2.49995pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+Overfull \hbox (18.21086pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[4
+
+] (MAJC_show_and_tell.toc)
+Overfull \hbox (18.21086pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[5
+
+] (MAJC_show_and_tell.toc)
+Overfull \hbox (18.21086pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[6
+
+] (MAJC_show_and_tell.toc)
+Overfull \hbox (18.21086pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[7
+
+]
+Overfull \hbox (9.26285pt too wide) in paragraph at lines 125--125
  []|  [] 
  []
 
 File: imus_basico_oct.png Graphic file (type png)
 <use imus_basico_oct.png>
-Package pdftex.def Info: imus_basico_oct.png used on input line 97.
+Package pdftex.def Info: imus_basico_oct.png used on input line 125.
 (pdftex.def)             Requested size: 95.61462pt x 42.74834pt.
 
 Overfull \hbox (18.21086pt too wide) has occurred while \output is active
 [][] 
  []
 
-[3
+[8
 
 ]
 \tf@nav=\write6
@@ -1017,13 +1057,13 @@ Overfull \hbox (18.21086pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `MAJC_show_and_tell.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
  (MAJC_show_and_tell.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
 Package rerunfilecheck Info: File `MAJC_show_and_tell.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 624185884662BE40D3DAC713E34CDEDC;211.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1031,24 +1071,29 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 21833 strings out of 493333
- 425193 string characters out of 3139197
- 503118 words of memory out of 3000000
- 24866 multiletter control sequences out of 15000+200000
- 11527 words of font info for 44 fonts, out of 3000000 for 9000
+ 22026 strings out of 493333
+ 430048 string characters out of 3139197
+ 505123 words of memory out of 3000000
+ 25037 multiletter control sequences out of 15000+200000
+ 12581 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,19n,71p,786b,552s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,19n,72p,786b,826s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-r9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on MAJC_show_and_tell.pdf (3 pages, 143605 bytes).
+X 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on MAJC_show_and_tell.pdf (8 pages, 214649 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 186 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
