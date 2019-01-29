@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{What is a proof?}{3}{0}{1}
 \beamer@sectionintoc {2}{Proof by contradiction}{14}{0}{2}
 \beamer@sectionintoc {3}{Proof by induction}{32}{0}{3}
-\beamer@sectionintoc {4}{Conclusions}{33}{0}{4}
+\beamer@sectionintoc {4}{Conclusions}{42}{0}{4}

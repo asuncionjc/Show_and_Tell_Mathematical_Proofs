@@ -203,6 +203,60 @@ Therefore, \textbf{$\boldsymbol{\sqrt{2}}$ is irrational}.}}
 \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Proof by induction}
+\begin{frame}
+\begin{enumerate}
+\item Base case ($n=1$).
+\item Assume the result for all $k< n$ (Induction hypothesis).
+\item Prove for $n$.
+\end{enumerate}
+\begin{alertblock}{Example}<2->
+\textbf{Theorem:} For all $n\in\mathbb{N}$:
+\begin{equation*}
+\sum\limits_{i = 1}^n i = \frac{n(n+1)}{2}
+\end{equation*}
+\begin{enumerate}
+\item<3-> $(n=1) \sum\limits_{i = 1}^1 i = 1 = \frac{1(1+1)}{2}$.
+\item<4-> (Induction hypothesis) The result is true for all $k<n$.
+\item<5-> $\sum\limits_{i = 1}^n i = \left( \sum\limits_{i = 1}^{n-1} i \right)+ n = \frac{(n-1)(n-1 + 1)}{2}+ n = \frac{(n-1)n}{2}+ \frac{2n}{2} = \frac{n^2 -n + 2n}{2} = \frac{n^2 + n}{2} = \frac{n(n+1)}{2}$.
+\end{enumerate}
+\end{alertblock}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Your turn!}
+\begin{block}{}
+\textbf{Theorem:} For all $n\in\mathbb{N}$ and $r\neq 1$:
+\begin{equation*}
+\sum\limits_{i = 0}^n r^i = \frac{1 - r^{n+1}}{1 - r}
+\end{equation*}
+\end{block}
+\visible<2->{
+\begin{enumerate}
+\item $(n = 0): \sum\limits_{i = 0}^0 r^i = r^0 = 1 = \frac{1-r}{1-r}$.
+\item (Induction hypothesis) The result is true for all $k<n$.
+\item $\sum\limits_{i = 0}^n r^i = \sum\limits_{i = 0}^{n-1} r^i  + r^n = \frac{1 - r^n}{1 - r} + r^n = \frac{1 - r^n + r^n(1-r)}{1- r}= \frac{1 - r^n + r^n - r^{n+1}}{1-r}$.
+\end{enumerate}
+}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{Last example}
+\begin{block}{}
+\textbf{Theorem:} For all $n\in\mathbb{N}$:
+\begin{equation*}
+11^n - 6 \text{ is divisible by} 5
+\end{equation*}
+\end{block}
+\visible<2->{
+\begin{enumerate}
+\item $(n = 1): 11^1 - 6 = 5$ which is divisible by $5$.
+\item (Induction hypothesis) The result is true for all $k<n$, and therefore $11^k = 5m + 6$, for some integer $m$.
+\item $11^n - 6 = \left(11\cdot11^{n-1} \right) - 6 = 11\cdot (5m + 6) - 6 = 11\cdot 5m +66 - 6 = 11\cdot 5m +60 = 5\cdot (11m + 12)$, which is divisible by $5$.
+\end{enumerate}
+}
+\end{frame}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusions}
 
