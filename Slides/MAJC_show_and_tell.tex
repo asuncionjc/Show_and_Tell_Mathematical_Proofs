@@ -74,27 +74,64 @@ Induction and Contradiction Proofs}
 \begin{frame}
 A \texthighlighted{theorem} is a statement that can be shown to be true.
 \begin{itemize}
-\item Hypothesis.
-\item Thesis.
+\item <2->Hypothesis.
+\item <2->Thesis.
 \end{itemize}
-\begin{block}{Example}
-\textbf{Bolzano's theorem:} If $f$ is a continuous function defined on a closed interval  $[a, b]$ such that $sign(f(a)) \neq sign(f(b))$.\\
-Then there exists a point $c$ in the open interval $(a, b)$ satisfying $f(c) = 0$.
+\begin{block}{Example}<3->
+\visible<3->{\textbf{Bolzano's theorem:} If $f$ is a continuous function defined on a closed interval  $[a, b]$ such that $sign(f(a)) \neq sign(f(b))$.\\
+Then there exists a point $c$ in the open interval $(a, b)$ satisfying $f(c) = 0$.}
 \begin{itemize}
-\item Hypothesis:
+\item<4-> Hypothesis:
 \begin{itemize}
-\item $f:[a, b]\rightarrow \mathbb{R}$ is continuous.
-\item $sign(f(a)) \neq sign(f(b))$
+\item<5-> $f:[a, b]\rightarrow \mathbb{R}$ is continuous.
+\item<5-> $sign(f(a)) \neq sign(f(b))$
 \end{itemize}
-\item Thesis:\\
+\item<4-> Thesis:\\
 \begin{itemize}
-\item $\exists c\in (a, b): f(c) = 0$
+\item<6-> $\exists c\in (a, b): f(c) = 0$
 \end{itemize}
 \end{itemize}
 \end{block}
 \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+A \texthighlighted{proof} is a chain of logical deductions that establishes the truth of a theorem.
+\begin{itemize}
+\item<2-> Hypothesis.
+\item<2-> Axioms (\emph{Ex: A number is equal to itself, $a = a$}).
+\item<2-> Previous mathematical results.
+\end{itemize}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\vspace*{-0.1cm}
+\visible<3->{\begin{alertblock}{Mistakes in proofs}
+\textbf{Conjecture:} 1 = 2.\\
+\emph{Assume $a, b$ are two equal positive integers:}
+\begin{enumerate}
+\item $a = b$
+\item $a^2 = ab$
+\item $a^2 - b^2 = ab -b^2$
+\item $(a - b)(a+ b) = b(a - b)$
+\item $a + b = b$
+\item $2b = b$
+\item $2 = 1$
+\end{enumerate}
+\end{alertblock}}
+\end{column}
+\begin{column}{0.5\textwidth}
+\visible<4->{\texthighlighted{\Large Where is the error?}}
+\end{column}
+\end{columns}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Proof by contradiction}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Proof by induction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusions}
 
 
