@@ -1,0 +1,100 @@
+\documentclass[11pt,a4paper,xcolor=dvipsnames, leqno]{beamer}
+
+\usetheme{show_and_tell}
+
+\title[Introduction to Mathematical
+Reasoning. Induction \& Contradiction Proofs]{An Introduction to Mathematical
+Reasoning with Applications to
+Induction and Contradiction Proofs}
+\author[M\textsuperscript{a} Asunci\'on Jim\'enez Cordero]
+{{{\bf M\textsuperscript{a} Asunci\'on Jim\'enez Cordero\\
+{\href{mailto:asuncionjc@us.es}{\tt asuncionjc@us.es}}}}}
+\institute{Show & Tell Karumi} % Opcional
+\date{}
+
+
+\defbeamertemplate*{title page}{customized}[1][]
+{\hspace*{-0.3cm}
+	\centering		
+  	\begin{beamercolorbox}[wd=1.05\textwidth, ht = 1.4cm, rounded = true, shadow = true]{my_palette}
+   		 \centering \usebeamerfont{title}\smallskip \inserttitle
+   		 \smallskip
+     \end{beamercolorbox}
+   \insertdate\par
+ 
+}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begingroup 
+    \setbeamertemplate{headline}{}
+    \begin{frame}
+        \titlepage
+\begin{center}
+\insertauthor\par
+\end{center}
+\begin{center}
+        \scriptsize Departamento de Estad\'istica e Investigaci\'on Operativa\\ and Instituto de Matem\'aticas de la Universidad de Sevilla,\\
+        Sevilla, Spain
+        \end{center}
+        
+\vspace*{0.3cm}
+\begin{center}
+\includegraphics[scale=0.35]{imus_basico_oct.png}
+\end{center}
+\begin{center}
+\scriptsize{Show \& Tell Karumi}
+\end{center}
+\begin{center}
+\footnotesize{XX XXXX 2019}
+\end{center}
+\end{frame}
+\endgroup
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\AtBeginSection[]{
+\begin{without_headline}
+  \begin{frame}{Outline}
+    \tableofcontents[currentsection]
+  \end{frame}
+  \end{without_headline}
+}
+
+
+\begin{without_headline}
+    \begin{frame}{Outline} % and our simple frame
+        \tableofcontents
+    \end{frame}
+\end{without_headline}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begingroup 
+    \setbeamertemplate{headline}{}
+    \begin{frame}
+        \titlepage
+\begin{center}
+\insertauthor\par
+\end{center}
+\begin{center}
+        \scriptsize Departamento de Estad\'istica e Investigaci\'on Operativa\\ and Instituto de Matem\'aticas de la Universidad de Sevilla,\\
+        Sevilla, Spain
+        \end{center}
+\begin{center}
+\LARGE \texthighlighted{Thank you!}
+\end{center}
+\begin{center}
+\includegraphics[scale=0.35]{imus_basico_oct.png}
+\end{center}
+\begin{center}
+\scriptsize{Show \& Tell Karumi}
+\end{center}
+\begin{center}
+\footnotesize{XX XXXX 2019}
+\end{center}
+\end{frame}
+\endgroup
+
+\end{document}

@@ -1,0 +1,177 @@
+%----------------------------------------
+%MY PACKAGES
+%----------------------------------------
+
+\usepackage{mathtools}
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{caption}
+\usepackage[authoryear, square]{natbib}
+\usepackage{xcolor}
+%----------------------------------------
+
+%-------------------------------------------------------------------------------
+%MY COLORS
+%--------------------------------------------------------------------------------
+\definecolor{my_blue}{RGB}{21,95,131}
+\definecolor{my_red}{RGB}{159,14,50}
+\definecolor{my_white}{RGB}{255, 255, 255}
+\colorlet{my_light_blue}{my_blue!20}
+\colorlet{my_light_red}{red!20}
+%--------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%SOME FORMAT STYLE
+
+\captionsetup[subfigure]{labelformat=empty}
+\renewcommand{\bibsection}{\subsubsection*{\bibname } }
+\captionsetup[algorithm]{font=footnotesize}
+\usefonttheme[stillsansserif]{serif}
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%MY DEFINITIONS
+
+\newcommand{\myreferences}{/Users/asun/Github/Bibliography/Bibliography_all} %bibliography path
+\newcommand{\texthighlighted}[1]{\textcolor{my_red}{\textbf{#1}}} %highlight text
+\newcommand{\mathhighlighted}[1]{\color{my_red}{\boldsymbol{#1}}} %highlight math mode
+
+\newenvironment<>{varblock}[2][\textwidth]{%
+  \setlength{\textwidth}{#1}
+  \begin{actionenv}#3%
+    \def\insertblocktitle{#2}%
+    \par%
+    \usebeamertemplate{block begin}}
+  {\par%
+    \usebeamertemplate{block end}%
+  \end{actionenv}}
+
+\newcommand{\articon}{\scalebox{0.8}{\pgfuseimage{beamericonarticle}}
+}
+\newenvironment<>{varalertedblock}[2][0.9\textwidth]{%
+    \setlength{\textwidth}{#1}%
+    \setlength{\linewidth}{\textwidth}%
+  \begin{actionenv}#3%
+    \def\insertblocktitle{#2}%
+    \par%
+    \setbeamercolor{local structure}{parent=alerted text}%
+    \usebeamertemplate{block alerted begin}}
+  {\par%
+  \usebeamertemplate{block alerted end}%
+    \end{actionenv}}
+    
+    \addtobeamertemplate{block alerted begin}{%
+  \setbeamercolor*{item}{fg=black}%
+}{}
+
+\setbeamercolor{alerted text}{fg=my_red}
+
+\setbeamercolor{my_palette}{fg=white,bg=my_blue}
+
+
+%-------------------------------------------------------------------------------
+
+
+%-----------------------------------------------------------------------------
+% GENERAL BEAMER STYLE (THE IMPORTANT POINTS ARE THE HEADER WITH THE PROGRESS BAR AND THE FOOTLINE)
+\mode<presentation> {
+\usetheme{Luebeck} % Tema seleccionado.
+\usecolortheme{whale} % Color del tema.
+\setbeamercovered{invisible} % Transparencia.
+}
+
+\setbeamertemplate{bibliography item}[text]
+\setbeamertemplate{blocks}[rounded][shadow]
+\setbeamertemplate{title page}[default][rounded=true,shadow=true]
+\setbeamertemplate{items}[ball]
+\setbeamertemplate{section in toc}[ball]
+
+\setbeamercolor*{structure}{bg=my_blue!20,fg=my_blue}
+\setbeamercolor*{block title}{fg=white,bg=my_blue}
+\setbeamercolor*{block title alerted}{fg=white,bg=my_red}
+
+\setbeamerfont{section in toc}{size=\small}
+
+\setbeamertemplate{navigation symbols}{}
+
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.3\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertshortauthor
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.75\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\insertshorttitle\hspace*{3em}
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+\def\insertsectionnavigationhorizontal#1#2#3{%
+  \hbox to #1{{%
+    \def\slideentry##1##2##3##4##5##6{}%
+    #2\hskip.3cm%all the section names move right or left
+    \newdimen\tmp@parbox%
+    \setlength\tmp@parbox{#1}%
+    \addtolength\tmp@parbox{-.6cm}%
+    \parbox{\tmp@parbox}{\raggedleft%
+      \usebeamerfont{section in head/foot}\usebeamercolor[fg]{section in head/foot}%
+      \setbox\beamer@sectionbox=\hbox{} %
+      \ht\beamer@sectionbox=1.875ex%
+      \dp\beamer@sectionbox=0.75ex%
+      \hskip-1.875ex plus-1fill\dohead%
+      \box\beamer@sectionbox}\hfil\hskip.3cm%
+      #3}}}
+      
+ 
+
+ \setbeamertemplate{headline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=2.25ex,dp=2ex,center]{section in head/foot}
+        \usebeamerfont{section in head/foot}\textsc{\insertsectionhead}\hspace*{2ex}
+  \end{beamercolorbox}
+  }
+  \vskip0pt%
+}
+
+    \newenvironment{without_headline}{
+        \setbeamertemplate{headline}[default]
+        \def\beamer@entrycode{\vspace*{-\headheight}}
+    }{}
+
+
+%\newlength\progressbar@sectionboxwidth
+%\newlength\progressbar@sectionboxheight
+%\newbox\progressbar@sectionbox
+%\newbox\progressbar@sectionboxbox
+%
+%\usesectionheadtemplate
+%  {\hfill
+%    \setbox\progressbar@sectionbox=\hbox{\insertsectionhead}%
+%    \progressbar@sectionboxwidth=\wd\progressbar@sectionbox
+%    \advance\progressbar@sectionboxwidth by 4pt
+%    \setbox\progressbar@sectionbox=\hbox{\pgfinterruptpicture t \endpgfinterruptpicture}%
+%   \progressbar@sectionboxheight=\ht\progressbar@sectionbox
+%    \advance\progressbar@sectionboxheight by 4pt
+%    \begin{tikzpicture}
+%      \useasboundingbox (-0.5\progressbar@sectionboxwidth, 0pt) rectangle (0.5\progressbar@sectionboxwidth, \progressbar@sectionboxheight);
+%      \draw[anchor=base] (0pt, 2pt) node {\color{my_white} \insertsectionhead};
+%      \draw[rounded corners=3pt, draw=my_white] (-0.5\progressbar@sectionboxwidth, 0pt) rectangle (0.5\progressbar@sectionboxwidth, \progressbar@sectionboxheight);
+%    \end{tikzpicture}
+%  }
+%  {\hfill
+%\setbox\progressbar@sectionbox=\hbox{\pgfinterruptpicture\insertsectionhead\endpgfinterruptpicture}%
+%    \progressbar@sectionboxwidth=\wd\progressbar@sectionbox
+%    \advance\progressbar@sectionboxwidth by 4pt
+%    \setbox\progressbar@sectionboxbox=\hbox{\pgfinterruptpicture t \endpgfinterruptpicture}%
+%    \progressbar@sectionboxheight=\ht\progressbar@sectionboxbox
+%    \advance\progressbar@sectionboxheight by 4pt
+%    \begin{tikzpicture}
+%      \useasboundingbox (-0.5\progressbar@sectionboxwidth, 0pt) rectangle (0.5\progressbar@sectionboxwidth, \progressbar@sectionboxheight);
+%      \draw[anchor=base] (0pt, 2pt) node {\color{my_white} \insertsectionhead};
+%    \end{tikzpicture}
+%  }
+
+%-----------------------------------------------------------------------------
