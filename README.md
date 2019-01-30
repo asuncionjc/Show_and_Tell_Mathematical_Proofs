@@ -7,7 +7,7 @@ contradiction and by induction.
 
 ## Goals
 
-The main goal of this project is to bring Maths closer to the non-mathematicians, emphasizing in the engineers of [Karumi](https://www.karumi.com/).
+The main goal of this project is to bring Maths closer to the non-mathematicians, making special attention to the engineers of [Karumi](https://www.karumi.com/).
 
 Any feedback is welcome, 😄 so please feel free to ask or comment anything you want. If you are shy 😳 and do not want to
 write in the repo, I will be happy to answer you by email at asuncionjc@us.es 👩🏻‍💻 .
@@ -24,13 +24,15 @@ Note that the source file of the abstract can be found [here](./Abstract/Abstrac
 
 ## Contents
 
-The content of this project will be given as a talk. The slides can be checked in the following [link](./Slides/MAJC_show_and_tell.pdf). The talk begins with an introduction to the mathematical reasoning, explaining some basic concepts, such as what is a theorem or a proof. Then, proofs of real theorems are solved by applying the well-known techniques: proof by contradiction and by induction. Finally, some conclusions are provided.  
+The content of this project will be given as a talk. The slides can be checked in the following [link](./Slides/MAJC_show_and_tell.pdf).
+
+The talk begins with an introduction to the mathematical reasoning, explaining some basic concepts, such as what is a theorem or a proof. Then, proofs of real theorems are solved by applying the well-known techniques: proof by contradiction and by induction. Finally, some conclusions are provided.  
 
 Special Thanks to
 ------------
 
 * [Pedro Vicente Gómez Sánchez](https://github.com/pedrovgs).
-* [Karumi](https://github.com/Karumi)
+* [Karumi](https://github.com/Karumi).
 
 Developed By
 ------------
