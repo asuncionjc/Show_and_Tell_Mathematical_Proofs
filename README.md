@@ -18,7 +18,7 @@ Is Mathematics so difficult as it seems? 🤯 Are mathematicians so squared-mind
 
 To this aim, the basic ideas of a mathematical proof will be given and illustrated in two well-known techniques: proof by contradiction and proof by induction. Moreover, we all together will solve some examples ✍🏼 to clarify the concepts.
 
-In this talk, no previous knowledge is required 😃 You will just need some paper 📒 and a pen to write notes ✍🏼 and to be eager to learn 😃💪
+In this talk, no previous knowledge is required 😃 You will just need some paper 📒 a pen to write notes ✍🏼 and to be eager to learn 😃💪
 
 Note that the source file of the abstract can be found [here](./Abstract/Abstract_show_and_tell.tex), as well as the [pdf document](./Abstract/Abstract_show_and_tell.pdf).
 
